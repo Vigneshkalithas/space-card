@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body {
+  background-color: #F2F3F6;
+
+}
+
+.head {
+  text-align: center;
+}
+
+.card-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  /* height: 400px; */
+  height: auto;
+  width: 300px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.image-product {
+  width: 300px;
+  height: 200px;
+}
+
+.content {
+  margin-left: 2rem;
+}
+
+.des {
+  width: 250px;
+}
+
+.content h4 h5 {
+  color: black;
+}
+
+.img-head {
+  cursor: pointer;
 }
